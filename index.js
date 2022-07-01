@@ -42,7 +42,7 @@ app.post("/forgotpassword", async function (req, res) {
           });
           //Mail options
           let mailOptions = {
-            from: "nodemaililavenil@gmail.com",
+            from: "nodemailinfant@gmail.com",
             to: email,
             subject: "Reset Password - BrandFP",
             html: `<h4>Hello,</h4><p>We've received a request to reset the password for the AdminFP 
